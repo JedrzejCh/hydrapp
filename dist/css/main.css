@@ -1,4 +1,85 @@
-body {
-  background-color: #3767AD; }
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #3767AD;
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.counter {
+  width: 280px;
+  height: 280px;
+  background: url("../assets/img/water-glass.svg"); }
+
+.btn {
+  width: 216px;
+  height: 47px;
+  background-color: #fffcf8;
+  border-radius: 8px;
+  font-weight: regular;
+  font-family: "Roboto";
+  border-color: #fffcf8;
+  -webkit-box-shadow: 0 6px 6px -6px black;
+          box-shadow: 0 6px 6px -6px black;
+  font-size: 18px;
+  margin-top: 40px;
+  cursor: pointer; }
+  .btn:focus {
+    outline: none;
+    border: none; }
+  .btn:first-of-type:hover {
+    -webkit-transform: translateY(2%);
+        -ms-transform: translateY(2%);
+            transform: translateY(2%);
+    -webkit-box-shadow: 0 6px 6px -10px black;
+            box-shadow: 0 6px 6px -10px black; }
+
+.btn__hidden {
+  background-color: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 16px;
+  color: white;
+  margin-top: 20px; }
+
+.counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.counter__value {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Roboto"; }
 
 /*# sourceMappingURL=main.css.map */
