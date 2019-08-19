@@ -1,9 +1,6 @@
-# wtf-gulp-starter
+![page screenshot](../scr2.png)
 
-`npm install -g gulp-cli`
+# hydrAPP
 
-`npm install`
-
-`gulp`
-
-To publish your page using github pages use `npm run deploy`
+Prosty projekt w którym ćwiczyłem użycie local storage, preprocesora SASS oraz Gulpa. W zakładce application sprawdzisz ile szklanek wody wypiłeś danego dnia.
+Zapraszam do sprawdzenia efektu: [kliknij tutaj](https://jedrzejch.github.io/hydrapp/)
